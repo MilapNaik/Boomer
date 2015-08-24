@@ -15,14 +15,14 @@ import com.badlogic.gdx.utils.JsonValue;
  
 public class Player implements Serializable
 {
-        private static final long serialversionUID = 1L;
+        //private static final long serialversionUID = 1L;
         Vector2 position;
         Texture texture;
         String textureLoc;
  
         public Player(Vector2 postion,String textureLoc)
         {
-                this.position = position;
+                //this.position = position;
                 this.texture = new Texture(Gdx.files.internal(textureLoc));
         }
  
